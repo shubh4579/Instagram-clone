@@ -7,7 +7,7 @@ import ProfileSect from "./Components/profileSect";
 function App() {
   return (
     <div className="App">
-      <div className="leftSideHome">
+      <div className="leftSideHome new_class">
         <SideBar />
       </div>
       <div className="middleSide">
