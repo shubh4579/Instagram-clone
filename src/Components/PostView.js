@@ -27,62 +27,53 @@ const PostView = () => {
     );
   };
 
-  const posts = [
-    {
-      name: "Sharukh khan",
-      time: "36 m",
-      profile_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      post_pic:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s",
-      status: "ferfwaef",
-    },
-    {
-      name: "Sharukh khan",
-      time: "36 m",
-      profile_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      post_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      status: "ferfwaef",
-    },
-    {
-      name: "Sharukh khan",
-      time: "36 m",
-      profile_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      post_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      status: "ferfwaef",
-    },
-    {
-      name: "Sharukh khan",
-      time: "36 m",
-      profile_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      post_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      status: "ferfwaef",
-    },
-    {
-      name: "Sharukh khan",
-      time: "36 m",
-      profile_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      post_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      status: "ferfwaef",
-    },
-    {
-      name: "Sharukh khan",
-      time: "36 m",
-      profile_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      post_pic:
-        "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
-      status: "ferfwaef",
-    },
-  ];
+ const posts = [
+  {
+    name: "Sharukh khan",
+    time: "36 m",
+    profile_pic:
+      "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
+    post_pic:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s",
+    status: "ferfwaef",
+  },
+  {
+    name: "Sharukh khan",
+    time: "36 m",
+    profile_pic:
+      "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
+    post_pic:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s",
+    status: "ferfwaef",
+  },
+  {
+    name: "Sharukh khan",
+    time: "36 m",
+    profile_pic:
+      "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
+    post_pic:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s",
+    status: "ferfwaef",
+  },
+  {
+    name: "Sharukh khan",
+    time: "36 m",
+    profile_pic:
+      "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
+    post_pic:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s",
+    status: "ferfwaef",
+  },
+  {
+    name: "Sharukh khan",
+    time: "36 m",
+    profile_pic:
+      "https://static.toiimg.com/thumb/msid-101260613,imgsize-19216,width-400,resizemode-4/101260613.jpg",
+    post_pic:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ718nztPNJfCbDJjZG8fOkejBnBAeQw5eAUA&s",
+    status: "ferfwaef",
+  },
+ ]
 
   return (
     <>

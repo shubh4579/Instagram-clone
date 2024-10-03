@@ -9,7 +9,7 @@
 }
 
 .storySection {
-  width: calc(70px * 9);
+  /* width: calc(70px * 9); */
   display: flex;
   flex-direction: row;
   justify-content: flex-start;

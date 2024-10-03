@@ -26,9 +26,25 @@
 }
 .username {
   padding-top: 5px;
+  display: flex;
+  gap:5px;
+  align-items: center;
 }
-.username .status {
+.status {
   font-size: 12px;
   font-weight: normal;
-  margin-left: 5px;
+  /* margin-left: 5px; */
+  max-width: 21rem;
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  /* word-wrap: break-word; */
+  /* overflow-wrap: break-word; */
+}
+
+.top-padding{
+  padding-top: 5px;
+}
+
+.moreButton{
+  color:blue
 }

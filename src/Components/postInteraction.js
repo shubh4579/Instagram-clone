@@ -7,8 +7,14 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 
 const PostInteraction = ({ username, status }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
   const [liked, setLiked] = useState(false);
   const [likedCount, setLikedCount] = useState(0);
+
+  const WORD_BREAK = 40
+
+  status = 'Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum'
+
 
   const handleLike = () => {
     if (liked) {
@@ -41,8 +47,22 @@ const PostInteraction = ({ username, status }) => {
       </div>
       <div className="likeCount">{likedCount} Likes</div>
       <div className="username">
-        {username} <span className="status">{status}</span>
+        <div>
+          {username}
+        </div>
+        <div className="status">
+            {status.length > WORD_BREAK ? (
+              <>
+                {status.slice(0, WORD_BREAK)} {!isExpanded && <span className="moreButton" onClick={()=>setIsExpanded(!isExpanded)}>more...</span>}
+              </>
+            ) : (
+              status
+            )}
+        </div>
       </div>
+         {isExpanded && status.length>WORD_BREAK && <div>
+            <div className="status top-padding">{status.slice(WORD_BREAK,)}</div>
+          </div>}
     </div>
   );
 };

@@ -7,12 +7,11 @@ import ProfileSect from "./Components/profileSect";
 function App() {
   return (
     <div className="App">
-      <div className="leftSideHome new_class">
+      <div className="leftSideHome">
         <SideBar />
       </div>
       <div className="middleSide">
         <ContentView />
-        <ProfileSect />
       </div>
     </div>
   );

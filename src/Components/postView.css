@@ -1,5 +1,4 @@
 .postSection {
-  border: 1px solid;
   width: 68%;
   margin-top: 30px;
   height: 96%;
@@ -7,15 +6,21 @@
 
 .post {
   width: 100%;
+  border-top: 0.5px solid grey;
+  border-bottom: 0.5px solid grey;
+  padding-bottom: 20px;
+
+
+  .postInfo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+  }
+
 }
 
-.postInfo {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 5px 0;
-}
 .moreInfo {
   margin-left: auto;
   cursor: pointer;

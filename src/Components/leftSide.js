@@ -25,7 +25,8 @@ const SideBar = () => {
       <div className="logoPart">
         <img className="logoImg" src={instagramlogo} alt="instagram" />
       </div>
-      <div className="navLinkPart">
+      <div className="sideBarOptContainer">
+      <div>
         <SideBarOpt optionName={"Home"} icon={HomeIcon} />
         <SideBarOpt optionName={"Search"} icon={SearchIcon} />
         <SideBarOpt optionName={"Explore"} icon={ExploreIcon} />
@@ -34,11 +35,14 @@ const SideBar = () => {
         <SideBarOpt optionName={"Notifications"} icon={FavoriteBorderIcon} />
         <SideBarOpt optionName={"Create"} icon={AddCircleOutlineIcon} />
         <SideBarOpt optionName={"Profile"} icon={AccountCircleIcon} />
+      </div>
+      <div className="navLinkPart">
 
         <div className="belowPart">
           <SideBarOpt optionName={"Thread"} icon={GestureIcon} />
           <SideBarOpt optionName={"More"} icon={DensityMediumIcon} />
         </div>
+      </div>
       </div>
     </>
   );
