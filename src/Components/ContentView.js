@@ -1,13 +1,22 @@
 import React from "react";
+import "./contentView.css"
 import StorySection from "./storySection";
 import PostView from "./PostView";
-import PostInteraction from "./postInteraction";
+import ProfileSect from "./profileSect";
+
 
 const ContentView = () => {
   return (
     <>
-      <StorySection />
-      <PostView />
+      <div className="storyAndPostContainer">
+        <StorySection />
+        <div className="postContainer">
+          <PostView />
+        </div>
+      </div>
+      <div>
+        <ProfileSect/>
+      </div>
     </>
   );
 };

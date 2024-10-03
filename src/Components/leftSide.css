@@ -1,6 +1,6 @@
 .logoPart {
   width: 150px;
-  height: 40px;
+  height: 105px;
 }
 .logoImg {
   width: 100%;
@@ -8,7 +8,7 @@
 .navLinkPart {
   display: flex;
   flex-direction: column;
-  margin-top: 70px;
+  /* margin-top: 70px; */
 }
 .navLink {
   display: flex;
@@ -28,4 +28,11 @@
 
 .belowPart {
   margin-top: 80px;
+}
+
+.sideBarOptContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
 }

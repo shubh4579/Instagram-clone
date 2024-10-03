@@ -1,0 +1,10 @@
+.storyAndPostContainer{
+    padding-left:317px;
+    /* padding-right:10px; */
+    width: 629px;
+}
+
+.postContainer{
+    display: flex;
+    justify-content: center;
+}

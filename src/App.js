@@ -12,7 +12,6 @@ function App() {
       </div>
       <div className="middleSide">
         <ContentView />
-        <ProfileSect />
       </div>
     </div>
   );
