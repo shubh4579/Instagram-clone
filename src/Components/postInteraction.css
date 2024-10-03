@@ -1,0 +1,34 @@
+.interaction {
+  display: flex;
+  flex-direction: column;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.likeCount {
+  font-size: 12px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.interaction .MuiSvgIcon-root {
+  font-size: 28px;
+}
+
+.savePost {
+  margin-left: auto;
+}
+.username {
+  padding-top: 5px;
+}
+.username .status {
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 5px;
+}
